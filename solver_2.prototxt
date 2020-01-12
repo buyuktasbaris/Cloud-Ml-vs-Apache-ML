@@ -1,0 +1,14 @@
+net: "/home/baris/caffe/deeplearning-cats-dogs-tutorial/caffe_models/caffe_model_2/caffenet_train_val_23.prototxt"
+test_iter: 143
+test_interval: 10000
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 60000
+display: 10000
+max_iter: 80000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 20000
+snapshot_prefix: "/media/baris/Data/caffe_model_444"
+solver_mode: GPU
